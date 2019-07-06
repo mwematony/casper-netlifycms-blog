@@ -250,12 +250,12 @@ h6 {
 }
 
 a {
-    color: #4A4A4A;
+    color: rgb(196, 193, 193);
     transition: color 0.3s ease;
 }
 
 a:hover {
-    color: #111;
+    color: rgb(104, 101, 101);
 }
 
 p, ul, ol, dl {
@@ -485,7 +485,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     z-index: 10;
     min-height: 100%;
-    background: #0b0511;
+    background: #000000;
     -webkit-transition: -webkit-transform 0.5s ease;
             transition: transform 0.5s ease;
 }
@@ -866,7 +866,7 @@ body.nav-opened .menu-button .word {
 
 /* Add a border to the buttons on hover */
 .menu-button:hover {
-    border-color: #555;
+    border-color: #555;14091f
     color: #555;
 }
 
@@ -929,6 +929,7 @@ body.nav-opened .menu-button .word {
     width: 80%;
     max-width: 710px;
     margin: 4rem auto;
+    padding: .5em;
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
     word-wrap: break-word;
@@ -936,6 +937,7 @@ body.nav-opened .menu-button .word {
     -ms-hyphens: auto;
     -webkit-hyphens: auto;
     hyphens: auto;
+    background: #14091f;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -988,6 +990,7 @@ body:not(.post-template) .post-title {
     float: left;
     margin-right: 9px;
     border-radius: 100%;
+    background: #fff;
 }
 
 .post-meta a {
